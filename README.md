@@ -1,0 +1,2 @@
+# js-kata
+Javascript practise
