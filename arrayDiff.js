@@ -10,5 +10,20 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3]
 */
 
 function arrayDiff(a, b) {
-	
+	let newList = []
+	for (var i = 0; i <= a.length - 1; i++) {
+
+		if(!b.includes(a[i])){
+			newList.push(a[i])
+		}
+
+	}
+	return newList
 }
+
+/* interesting solutions
+function array_diff(a, b) {
+  return a.filter(e => !b.includes(e));
+}
+
+ */
